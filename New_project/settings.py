@@ -34,6 +34,7 @@ INSTALLED_APPS = [
 
     'users',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +125,5 @@ LOGOUT_REDIRECT_URL = 'home'
 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+TIME_ZONE ='America/New_York'
